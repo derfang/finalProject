@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/PADIDAR/Desktop/temp/codes/cpp/finalProject/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\counterProject.dir\\main.cpp.obj -c C:\\Users\\PADIDAR\\Desktop\\temp\\codes\\cpp\\finalProject\\main.cpp",
+  "file": "C:/Users/PADIDAR/Desktop/temp/codes/cpp/finalProject/main.cpp",
+  "output": "CMakeFiles/counterProject.dir/main.cpp.obj"
+}
+]
