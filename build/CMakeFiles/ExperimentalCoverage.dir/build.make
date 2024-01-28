@@ -52,10 +52,10 @@ RM = C:\Strawberry\c\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject
+CMAKE_SOURCE_DIR = C:\Users\PADIDAR\Desktop\finalProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject\build
+CMAKE_BINARY_DIR = C:\Users\PADIDAR\Desktop\finalProject\build
 
 # Utility rule file for ExperimentalCoverage.
 
@@ -81,6 +81,6 @@ CMakeFiles/ExperimentalCoverage.dir/clean:
 .PHONY : CMakeFiles/ExperimentalCoverage.dir/clean
 
 CMakeFiles/ExperimentalCoverage.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject\build C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject\build C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject\build\CMakeFiles\ExperimentalCoverage.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\PADIDAR\Desktop\finalProject C:\Users\PADIDAR\Desktop\finalProject C:\Users\PADIDAR\Desktop\finalProject\build C:\Users\PADIDAR\Desktop\finalProject\build C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles\ExperimentalCoverage.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalCoverage.dir/depend
 

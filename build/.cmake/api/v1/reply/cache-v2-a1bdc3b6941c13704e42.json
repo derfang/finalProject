@@ -83,7 +83,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/PADIDAR/Desktop/temp/codes/cpp/finalProject/build"
+			"value" : "c:/Users/PADIDAR/Desktop/finalProject/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -607,7 +607,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/PADIDAR/Desktop/temp/codes/cpp/finalProject/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/PADIDAR/Desktop/finalProject/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/PADIDAR/Desktop/temp/codes/cpp/finalProject"
+			"value" : "C:/Users/PADIDAR/Desktop/finalProject"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/counterProject"
+			"value" : "C:/Program Files (x86)/CSproject"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -911,7 +911,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "counterProject"
+			"value" : "CSproject"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1510,6 +1510,42 @@
 			"value" : "ON"
 		},
 		{
+			"name" : "CSproject_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/PADIDAR/Desktop/finalProject/build"
+		},
+		{
+			"name" : "CSproject_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "CSproject_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/PADIDAR/Desktop/finalProject"
+		},
+		{
 			"name" : "CTEST_SUBMIT_RETRY_COUNT",
 			"properties" : 
 			[
@@ -1599,11 +1635,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "(This variable does not exist and should not be used)"
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
+			"type" : "FILEPATH",
+			"value" : "C:/Users/PADIDAR/Desktop/programs/Git/cmd/git.exe"
 		},
 		{
 			"name" : "HGCOMMAND",
@@ -1728,42 +1764,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "TRUE"
-		},
-		{
-			"name" : "counterProject_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/PADIDAR/Desktop/temp/codes/cpp/finalProject/build"
-		},
-		{
-			"name" : "counterProject_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "counterProject_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/PADIDAR/Desktop/temp/codes/cpp/finalProject"
 		}
 	],
 	"kind" : "cache",

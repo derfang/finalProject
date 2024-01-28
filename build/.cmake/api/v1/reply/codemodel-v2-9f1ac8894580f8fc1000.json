@@ -55,7 +55,7 @@
 					[
 						0
 					],
-					"name" : "counterProject",
+					"name" : "CSproject",
 					"targetIndexes" : 
 					[
 						0,
@@ -92,6 +92,13 @@
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CSproject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CSproject-Debug-a4baa61be1f26b0fedb9.json",
+					"name" : "CSproject",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Continuous::@6890427a1f51a3e7e1df",
@@ -287,13 +294,6 @@
 					"jsonFile" : "target-NightlyUpdate-Debug-7f27864610305e203b50.json",
 					"name" : "NightlyUpdate",
 					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "counterProject::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-counterProject-Debug-cf6aa2593268ff3bb278.json",
-					"name" : "counterProject",
-					"projectIndex" : 0
 				}
 			]
 		}
@@ -301,8 +301,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/PADIDAR/Desktop/temp/codes/cpp/finalProject/build",
-		"source" : "C:/Users/PADIDAR/Desktop/temp/codes/cpp/finalProject"
+		"build" : "C:/Users/PADIDAR/Desktop/finalProject/build",
+		"source" : "C:/Users/PADIDAR/Desktop/finalProject"
 	},
 	"version" : 
 	{

@@ -56,10 +56,10 @@ RM = C:\Strawberry\c\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject
+CMAKE_SOURCE_DIR = C:\Users\PADIDAR\Desktop\finalProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject\build
+CMAKE_BINARY_DIR = C:\Users\PADIDAR\Desktop\finalProject\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	C:\Strawberry\c\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Users/PADIDAR/Desktop/temp/codes/cpp/finalProject/build/CPackSourceConfig.cmake
+	C:\Strawberry\c\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Users/PADIDAR/Desktop/finalProject/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -116,9 +116,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject\build\CMakeFiles C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles C:\Users\PADIDAR\Desktop\finalProject\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -510,24 +510,24 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
-# Target rules for targets named counterProject
+# Target rules for targets named CSproject
 
 # Build rule for target.
-counterProject: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 counterProject
-.PHONY : counterProject
+CSproject: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CSproject
+.PHONY : CSproject
 
 # fast build rule for target.
-counterProject/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\counterProject.dir\build.make CMakeFiles/counterProject.dir/build
-.PHONY : counterProject/fast
+CSproject/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSproject.dir\build.make CMakeFiles/CSproject.dir/build
+.PHONY : CSproject/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\counterProject.dir\build.make CMakeFiles/counterProject.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSproject.dir\build.make CMakeFiles/CSproject.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -535,7 +535,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\counterProject.dir\build.make CMakeFiles/counterProject.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSproject.dir\build.make CMakeFiles/CSproject.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -543,7 +543,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\counterProject.dir\build.make CMakeFiles/counterProject.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSproject.dir\build.make CMakeFiles/CSproject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -585,7 +585,7 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
-	@echo ... counterProject
+	@echo ... CSproject
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

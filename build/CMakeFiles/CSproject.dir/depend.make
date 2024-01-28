@@ -1,2 +1,2 @@
-# Empty dependencies file for counterProject.
+# Empty dependencies file for CSproject.
 # This may be replaced when dependencies are built.

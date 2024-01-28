@@ -1,3 +1,0 @@
-C:\Strawberry\c\bin\cmake.exe -E rm -f CMakeFiles\counterProject.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\counterProject.dir/objects.a @CMakeFiles\counterProject.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\counterProject.dir/objects.a -Wl,--no-whole-archive -o counterProject.exe -Wl,--out-implib,libcounterProject.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\counterProject.dir\linkLibs.rsp

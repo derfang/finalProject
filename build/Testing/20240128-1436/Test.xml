@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="Win32-mingw32-make"
-	BuildStamp="20240128-1430-Experimental"
+	BuildStamp="20240128-1436-Experimental"
 	Name="DERFANG-PC"
 	Generator="ctest-3.26.4"
 	CompilerName="C:/msys64/mingw64/bin/g++.exe"
@@ -24,11 +24,11 @@
 	ProcessorClockFrequency="2688"
 	>
 	<Testing>
-		<StartDateTime>Jan 28 18:00 Iran Standard Time</StartDateTime>
-		<StartTestTime>1706452208</StartTestTime>
+		<StartDateTime>Jan 28 18:06 Iran Standard Time</StartDateTime>
+		<StartTestTime>1706452616</StartTestTime>
 		<TestList/>
-		<EndDateTime>Jan 28 18:00 Iran Standard Time</EndDateTime>
-		<EndTestTime>1706452208</EndTestTime>
+		<EndDateTime>Jan 28 18:06 Iran Standard Time</EndDateTime>
+		<EndTestTime>1706452616</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

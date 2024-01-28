@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/PADIDAR/Desktop/temp/codes/cpp/finalProject
-BuildDirectory: C:/Users/PADIDAR/Desktop/temp/codes/cpp/finalProject/build
+SourceDirectory: C:/Users/PADIDAR/Desktop/finalProject
+BuildDirectory: C:/Users/PADIDAR/Desktop/finalProject/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Strawberry/c/bin/cmake.exe" "C:/Users/PADIDAR/Desktop/temp/codes/cpp/finalProject"
+ConfigureCommand: "C:/Strawberry/c/bin/cmake.exe" "C:/Users/PADIDAR/Desktop/finalProject"
 MakeCommand: C:/Strawberry/c/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -45,7 +45,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: 
+GITCommand: C:/Users/PADIDAR/Desktop/programs/Git/cmd/git.exe
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -58,9 +58,9 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: 
+UpdateCommand: C:/Users/PADIDAR/Desktop/programs/Git/cmd/git.exe
 UpdateOptions: 
-UpdateType: 
+UpdateType: git
 
 # Compiler info
 Compiler: C:/msys64/mingw64/bin/g++.exe

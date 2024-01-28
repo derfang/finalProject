@@ -52,10 +52,10 @@ RM = C:\Strawberry\c\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject
+CMAKE_SOURCE_DIR = C:\Users\PADIDAR\Desktop\finalProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject\build
+CMAKE_BINARY_DIR = C:\Users\PADIDAR\Desktop\finalProject\build
 
 # Utility rule file for ExperimentalMemCheck.
 
@@ -81,6 +81,6 @@ CMakeFiles/ExperimentalMemCheck.dir/clean:
 .PHONY : CMakeFiles/ExperimentalMemCheck.dir/clean
 
 CMakeFiles/ExperimentalMemCheck.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject\build C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject\build C:\Users\PADIDAR\Desktop\temp\codes\cpp\finalProject\build\CMakeFiles\ExperimentalMemCheck.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\PADIDAR\Desktop\finalProject C:\Users\PADIDAR\Desktop\finalProject C:\Users\PADIDAR\Desktop\finalProject\build C:\Users\PADIDAR\Desktop\finalProject\build C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles\ExperimentalMemCheck.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalMemCheck.dir/depend
 

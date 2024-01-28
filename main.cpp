@@ -1,5 +1,5 @@
 #include <iostream>
 
 int main(int, char**){
-    std::cout << "Hello, from counterProject!\n";
+    std::cout << "Hello, from CSproject!\n";
 }
