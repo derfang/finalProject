@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libadditional_functions.a CMakeFiles/additional_functions.dir/additional_functions.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libadditional_functions.a

@@ -522,6 +522,45 @@ CSproject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSproject.dir\build.make CMakeFiles/CSproject.dir/build
 .PHONY : CSproject/fast
 
+#=============================================================================
+# Target rules for targets named additional_functions
+
+# Build rule for target.
+additional_functions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 additional_functions
+.PHONY : additional_functions
+
+# fast build rule for target.
+additional_functions/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\additional_functions.dir\build.make src/CMakeFiles/additional_functions.dir/build
+.PHONY : additional_functions/fast
+
+#=============================================================================
+# Target rules for targets named WeaponAndListOfWeapon
+
+# Build rule for target.
+WeaponAndListOfWeapon: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WeaponAndListOfWeapon
+.PHONY : WeaponAndListOfWeapon
+
+# fast build rule for target.
+WeaponAndListOfWeapon/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\WeaponAndListOfWeapon.dir\build.make src/CMakeFiles/WeaponAndListOfWeapon.dir/build
+.PHONY : WeaponAndListOfWeapon/fast
+
+#=============================================================================
+# Target rules for targets named PlayerAndList
+
+# Build rule for target.
+PlayerAndList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PlayerAndList
+.PHONY : PlayerAndList
+
+# fast build rule for target.
+PlayerAndList/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\PlayerAndList.dir\build.make src/CMakeFiles/PlayerAndList.dir/build
+.PHONY : PlayerAndList/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -586,6 +625,9 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... CSproject
+	@echo ... PlayerAndList
+	@echo ... WeaponAndListOfWeapon
+	@echo ... additional_functions
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

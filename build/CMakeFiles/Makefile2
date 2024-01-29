@@ -63,10 +63,11 @@ CMAKE_BINARY_DIR = C:\Users\PADIDAR\Desktop\finalProject\build
 
 # The main recursive "all" target.
 all: CMakeFiles/CSproject.dir/all
+all: src/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: src/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -99,7 +100,27 @@ clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
 clean: CMakeFiles/CSproject.dir/clean
+clean: src/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src
+
+# Recursive "all" directory target.
+src/all: src/CMakeFiles/additional_functions.dir/all
+src/all: src/CMakeFiles/WeaponAndListOfWeapon.dir/all
+src/all: src/CMakeFiles/PlayerAndList.dir/all
+.PHONY : src/all
+
+# Recursive "preinstall" directory target.
+src/preinstall:
+.PHONY : src/preinstall
+
+# Recursive "clean" directory target.
+src/clean: src/CMakeFiles/additional_functions.dir/clean
+src/clean: src/CMakeFiles/WeaponAndListOfWeapon.dir/clean
+src/clean: src/CMakeFiles/PlayerAndList.dir/clean
+.PHONY : src/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Experimental.dir
@@ -833,7 +854,9 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 # Target rules for target CMakeFiles/CSproject.dir
 
 # All Build rule for target.
-CMakeFiles/CSproject.dir/all:
+CMakeFiles/CSproject.dir/all: src/CMakeFiles/PlayerAndList.dir/all
+CMakeFiles/CSproject.dir/all: src/CMakeFiles/additional_functions.dir/all
+CMakeFiles/CSproject.dir/all: src/CMakeFiles/WeaponAndListOfWeapon.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSproject.dir\build.make CMakeFiles/CSproject.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSproject.dir\build.make CMakeFiles/CSproject.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles --progress-num=1,2 "Built target CSproject"
@@ -841,7 +864,7 @@ CMakeFiles/CSproject.dir/all:
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CSproject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CSproject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles 0
 .PHONY : CMakeFiles/CSproject.dir/rule
@@ -854,6 +877,84 @@ CSproject: CMakeFiles/CSproject.dir/rule
 CMakeFiles/CSproject.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSproject.dir\build.make CMakeFiles/CSproject.dir/clean
 .PHONY : CMakeFiles/CSproject.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/additional_functions.dir
+
+# All Build rule for target.
+src/CMakeFiles/additional_functions.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\additional_functions.dir\build.make src/CMakeFiles/additional_functions.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\additional_functions.dir\build.make src/CMakeFiles/additional_functions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles --progress-num=7,8 "Built target additional_functions"
+.PHONY : src/CMakeFiles/additional_functions.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/additional_functions.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/additional_functions.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles 0
+.PHONY : src/CMakeFiles/additional_functions.dir/rule
+
+# Convenience name for target.
+additional_functions: src/CMakeFiles/additional_functions.dir/rule
+.PHONY : additional_functions
+
+# clean rule for target.
+src/CMakeFiles/additional_functions.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\additional_functions.dir\build.make src/CMakeFiles/additional_functions.dir/clean
+.PHONY : src/CMakeFiles/additional_functions.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/WeaponAndListOfWeapon.dir
+
+# All Build rule for target.
+src/CMakeFiles/WeaponAndListOfWeapon.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\WeaponAndListOfWeapon.dir\build.make src/CMakeFiles/WeaponAndListOfWeapon.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\WeaponAndListOfWeapon.dir\build.make src/CMakeFiles/WeaponAndListOfWeapon.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles --progress-num=5,6 "Built target WeaponAndListOfWeapon"
+.PHONY : src/CMakeFiles/WeaponAndListOfWeapon.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/WeaponAndListOfWeapon.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/WeaponAndListOfWeapon.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles 0
+.PHONY : src/CMakeFiles/WeaponAndListOfWeapon.dir/rule
+
+# Convenience name for target.
+WeaponAndListOfWeapon: src/CMakeFiles/WeaponAndListOfWeapon.dir/rule
+.PHONY : WeaponAndListOfWeapon
+
+# clean rule for target.
+src/CMakeFiles/WeaponAndListOfWeapon.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\WeaponAndListOfWeapon.dir\build.make src/CMakeFiles/WeaponAndListOfWeapon.dir/clean
+.PHONY : src/CMakeFiles/WeaponAndListOfWeapon.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/PlayerAndList.dir
+
+# All Build rule for target.
+src/CMakeFiles/PlayerAndList.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\PlayerAndList.dir\build.make src/CMakeFiles/PlayerAndList.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\PlayerAndList.dir\build.make src/CMakeFiles/PlayerAndList.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles --progress-num=3,4 "Built target PlayerAndList"
+.PHONY : src/CMakeFiles/PlayerAndList.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/PlayerAndList.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/PlayerAndList.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles 0
+.PHONY : src/CMakeFiles/PlayerAndList.dir/rule
+
+# Convenience name for target.
+PlayerAndList: src/CMakeFiles/PlayerAndList.dir/rule
+.PHONY : PlayerAndList
+
+# clean rule for target.
+src/CMakeFiles/PlayerAndList.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\PlayerAndList.dir\build.make src/CMakeFiles/PlayerAndList.dir/clean
+.PHONY : src/CMakeFiles/PlayerAndList.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

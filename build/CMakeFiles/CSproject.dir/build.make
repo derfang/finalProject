@@ -69,6 +69,7 @@ include CMakeFiles/CSproject.dir/progress.make
 include CMakeFiles/CSproject.dir/flags.make
 
 CMakeFiles/CSproject.dir/main.cpp.obj: CMakeFiles/CSproject.dir/flags.make
+CMakeFiles/CSproject.dir/main.cpp.obj: CMakeFiles/CSproject.dir/includes_CXX.rsp
 CMakeFiles/CSproject.dir/main.cpp.obj: C:/Users/PADIDAR/Desktop/finalProject/main.cpp
 CMakeFiles/CSproject.dir/main.cpp.obj: CMakeFiles/CSproject.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CSproject.dir/main.cpp.obj"
@@ -91,6 +92,9 @@ CSproject_EXTERNAL_OBJECTS =
 
 CSproject.exe: CMakeFiles/CSproject.dir/main.cpp.obj
 CSproject.exe: CMakeFiles/CSproject.dir/build.make
+CSproject.exe: src/libadditional_functions.a
+CSproject.exe: src/libWeaponAndListOfWeapon.a
+CSproject.exe: src/libPlayerAndList.a
 CSproject.exe: CMakeFiles/CSproject.dir/linkLibs.rsp
 CSproject.exe: CMakeFiles/CSproject.dir/objects1.rsp
 CSproject.exe: CMakeFiles/CSproject.dir/link.txt

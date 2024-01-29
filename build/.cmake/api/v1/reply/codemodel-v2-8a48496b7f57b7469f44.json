@@ -6,6 +6,10 @@
 			[
 				{
 					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
@@ -45,6 +49,23 @@
 						27,
 						28
 					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						29,
+						30,
+						31
+					]
 				}
 			],
 			"name" : "Debug",
@@ -53,7 +74,8 @@
 				{
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						1
 					],
 					"name" : "CSproject",
 					"targetIndexes" : 
@@ -86,7 +108,10 @@
 						25,
 						26,
 						27,
-						28
+						28,
+						29,
+						30,
+						31
 					]
 				}
 			],
@@ -95,7 +120,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CSproject::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CSproject-Debug-a4baa61be1f26b0fedb9.json",
+					"jsonFile" : "target-CSproject-Debug-a2ecb2074ade1719904a.json",
 					"name" : "CSproject",
 					"projectIndex" : 0
 				},
@@ -293,6 +318,27 @@
 					"id" : "NightlyUpdate::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-NightlyUpdate-Debug-7f27864610305e203b50.json",
 					"name" : "NightlyUpdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "PlayerAndList::@145eef247bfb46b6828c",
+					"jsonFile" : "target-PlayerAndList-Debug-11f89f0ffa96ab6140d6.json",
+					"name" : "PlayerAndList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "WeaponAndListOfWeapon::@145eef247bfb46b6828c",
+					"jsonFile" : "target-WeaponAndListOfWeapon-Debug-35aa28151cc41dcce253.json",
+					"name" : "WeaponAndListOfWeapon",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "additional_functions::@145eef247bfb46b6828c",
+					"jsonFile" : "target-additional_functions-Debug-6f312defee6d0f9e1f5d.json",
+					"name" : "additional_functions",
 					"projectIndex" : 0
 				}
 			]
