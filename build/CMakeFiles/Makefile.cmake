@@ -91,5 +91,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CSproject.dir/DependInfo.cmake"
   "src/CMakeFiles/additional_functions.dir/DependInfo.cmake"
   "src/CMakeFiles/WeaponAndListOfWeapon.dir/DependInfo.cmake"
+  "src/CMakeFiles/ListOfWeapon.dir/DependInfo.cmake"
   "src/CMakeFiles/PlayerAndList.dir/DependInfo.cmake"
   )

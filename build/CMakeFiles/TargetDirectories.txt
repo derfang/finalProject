@@ -34,6 +34,7 @@ C:/Users/PADIDAR/Desktop/finalProject/build/CMakeFiles/edit_cache.dir
 C:/Users/PADIDAR/Desktop/finalProject/build/CMakeFiles/rebuild_cache.dir
 C:/Users/PADIDAR/Desktop/finalProject/build/src/CMakeFiles/additional_functions.dir
 C:/Users/PADIDAR/Desktop/finalProject/build/src/CMakeFiles/WeaponAndListOfWeapon.dir
+C:/Users/PADIDAR/Desktop/finalProject/build/src/CMakeFiles/ListOfWeapon.dir
 C:/Users/PADIDAR/Desktop/finalProject/build/src/CMakeFiles/PlayerAndList.dir
 C:/Users/PADIDAR/Desktop/finalProject/build/src/CMakeFiles/package.dir
 C:/Users/PADIDAR/Desktop/finalProject/build/src/CMakeFiles/package_source.dir

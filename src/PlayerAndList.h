@@ -1,28 +1,22 @@
 #pragma once
 #include <bits/stdc++.h>
 #include "WeaponAndListOfWeapon.h"
+#include "ListOfWeapon.h"
 using namespace std;
 
-class Player {
- public:
-  string name;
-  int health;
-  int money;
-  int kills;
-  int deaths;
-  ListOfWeapons weapons;
-  string team;
-  string state;
-  Player();
-  Player(string playerName, string playerTeam, string playerState);
+class listOfPlayers{
+    public:
+        vector<Player> players;
+        listOfPlayers();
+        void addPlayer(string playerName, string playerTeam, string playerState, string time);
+        void addWeapon(string playerName, string weaponName, string team);
+        void printPlayerInfo(string playerName);
+        void printAllPlayersInfo();
+        bool alreadyAdded(string playerName);
+        int howManyPlayers(string team = "all");
+        int findPlayer(string playerName);
+        void printScoreBoard();
 };
 
-class listOfPlayers {
- public:
-  vector<Player> players;
-  listOfPlayers();
-  void addPlayer(string playerName, string playerTeam, string playerState);
-  void addWeapon(string playerName, string weaponName, string team);
-  void printPlayerInfo(string playerName);
-  void printAllPlayersInfo();
-};
+
+

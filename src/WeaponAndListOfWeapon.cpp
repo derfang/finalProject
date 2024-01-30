@@ -67,40 +67,6 @@ Weapon::Weapon(string weaponName) {  // knife, AK, AWP, Revolver, Glock-18,
   }
 }
 
-ListOfWeapons::ListOfWeapons() { knife = Weapon("knife"); }
 
-void ListOfWeapons::addWeapon(string weaponName, string team) {
-  try {
-    Weapon newWeapon(weaponName);
-    if (newWeapon.type == "heavy") {
-      if (heavy.name == "") {
-        if (newWeapon.userType == team || newWeapon.userType == "both") {
-          heavy = newWeapon;
-        } else {
-          cout << "invalid category gun" << endl;
-          throw runtime_error("you can't use this weapon");
-        }
-      } else {
-        cout << "you have a " << heavy.name << endl;
-        throw runtime_error("heavy weapon already exists");
-      }
-    } else if (newWeapon.type == "pistol") {
-      if (pistol.name == "") {
-        if (newWeapon.userType == team || newWeapon.userType == "both") {
-          pistol = newWeapon;
-        } else {
-          cout << "invalid category gun" << endl;
-          throw runtime_error("you can't use this weapon");
-        }
-      } else {
-        cout << "you have a " << pistol.name << endl;
-        throw runtime_error("pistol already exists");
-      }
-    } else {
-      throw runtime_error("invalid input");
-    }
-  } catch (runtime_error &e) {
-    cout << e.what() << endl;
-    throw runtime_error("somthing went wrong");
-  }
-}
+
+

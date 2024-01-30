@@ -340,8 +340,13 @@ CMakeFiles/CSproject.dir/main.cpp.obj: C:/Users/PADIDAR/Desktop/finalProject/mai
   C:/msys64/mingw64/include/c++/13.1.0/bits/fs_ops.h \
   C:/msys64/mingw64/include/c++/13.1.0/memory_resource \
   C:/Users/PADIDAR/Desktop/finalProject/src/additional_functions.h \
-  C:/Users/PADIDAR/Desktop/finalProject/src/WeaponAndListOfWeapon.h
+  C:/Users/PADIDAR/Desktop/finalProject/src/ListOfWeapon.h \
+  C:/Users/PADIDAR/Desktop/finalProject/src/WeaponAndListOfWeapon.h \
+  C:/Users/PADIDAR/Desktop/finalProject/src/ListOfWeapon.cpp \
+  C:/Users/PADIDAR/Desktop/finalProject/src/PlayerAndList.h
 
+
+C:/Users/PADIDAR/Desktop/finalProject/src/PlayerAndList.h:
 
 C:/Users/PADIDAR/Desktop/finalProject/src/additional_functions.h:
 
@@ -464,6 +469,8 @@ C:/msys64/mingw64/include/c++/13.1.0/bits/memory_resource.h:
 C:/msys64/mingw64/include/c++/13.1.0/bits/gslice_array.h:
 
 C:/msys64/mingw64/include/c++/13.1.0/array:
+
+C:/Users/PADIDAR/Desktop/finalProject/src/ListOfWeapon.h:
 
 C:/msys64/mingw64/include/c++/13.1.0/cerrno:
 
@@ -908,6 +915,8 @@ C:/msys64/mingw64/include/float.h:
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h:
 
 C:/msys64/mingw64/include/c++/13.1.0/pstl/glue_numeric_defs.h:
+
+C:/Users/PADIDAR/Desktop/finalProject/src/ListOfWeapon.cpp:
 
 C:/msys64/mingw64/include/corecrt.h:
 

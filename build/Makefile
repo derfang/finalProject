@@ -549,6 +549,19 @@ WeaponAndListOfWeapon/fast:
 .PHONY : WeaponAndListOfWeapon/fast
 
 #=============================================================================
+# Target rules for targets named ListOfWeapon
+
+# Build rule for target.
+ListOfWeapon: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ListOfWeapon
+.PHONY : ListOfWeapon
+
+# fast build rule for target.
+ListOfWeapon/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ListOfWeapon.dir\build.make src/CMakeFiles/ListOfWeapon.dir/build
+.PHONY : ListOfWeapon/fast
+
+#=============================================================================
 # Target rules for targets named PlayerAndList
 
 # Build rule for target.
@@ -625,6 +638,7 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... CSproject
+	@echo ... ListOfWeapon
 	@echo ... PlayerAndList
 	@echo ... WeaponAndListOfWeapon
 	@echo ... additional_functions

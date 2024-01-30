@@ -334,4 +334,5 @@ src/CMakeFiles/PlayerAndList.dir/PlayerAndList.cpp.obj: \
  C:/msys64/mingw64/include/c++/13.1.0/bits/fs_dir.h \
  C:/msys64/mingw64/include/c++/13.1.0/bits/fs_ops.h \
  C:/msys64/mingw64/include/c++/13.1.0/memory_resource \
- C:\Users\PADIDAR\Desktop\finalProject\src\WeaponAndListOfWeapon.h
+ C:\Users\PADIDAR\Desktop\finalProject\src\WeaponAndListOfWeapon.h \
+ C:\Users\PADIDAR\Desktop\finalProject\src\ListOfWeapon.h

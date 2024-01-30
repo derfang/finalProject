@@ -174,6 +174,20 @@ WeaponAndListOfWeapon/fast:
 .PHONY : WeaponAndListOfWeapon/fast
 
 # Convenience name for target.
+src/CMakeFiles/ListOfWeapon.dir/rule:
+	cd /d C:\Users\PADIDAR\Desktop\finalProject\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/ListOfWeapon.dir/rule
+.PHONY : src/CMakeFiles/ListOfWeapon.dir/rule
+
+# Convenience name for target.
+ListOfWeapon: src/CMakeFiles/ListOfWeapon.dir/rule
+.PHONY : ListOfWeapon
+
+# fast build rule for target.
+ListOfWeapon/fast:
+	cd /d C:\Users\PADIDAR\Desktop\finalProject\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ListOfWeapon.dir\build.make src/CMakeFiles/ListOfWeapon.dir/build
+.PHONY : ListOfWeapon/fast
+
+# Convenience name for target.
 src/CMakeFiles/PlayerAndList.dir/rule:
 	cd /d C:\Users\PADIDAR\Desktop\finalProject\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/PlayerAndList.dir/rule
 .PHONY : src/CMakeFiles/PlayerAndList.dir/rule
@@ -186,6 +200,30 @@ PlayerAndList: src/CMakeFiles/PlayerAndList.dir/rule
 PlayerAndList/fast:
 	cd /d C:\Users\PADIDAR\Desktop\finalProject\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\PlayerAndList.dir\build.make src/CMakeFiles/PlayerAndList.dir/build
 .PHONY : PlayerAndList/fast
+
+ListOfWeapon.obj: ListOfWeapon.cpp.obj
+.PHONY : ListOfWeapon.obj
+
+# target to build an object file
+ListOfWeapon.cpp.obj:
+	cd /d C:\Users\PADIDAR\Desktop\finalProject\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ListOfWeapon.dir\build.make src/CMakeFiles/ListOfWeapon.dir/ListOfWeapon.cpp.obj
+.PHONY : ListOfWeapon.cpp.obj
+
+ListOfWeapon.i: ListOfWeapon.cpp.i
+.PHONY : ListOfWeapon.i
+
+# target to preprocess a source file
+ListOfWeapon.cpp.i:
+	cd /d C:\Users\PADIDAR\Desktop\finalProject\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ListOfWeapon.dir\build.make src/CMakeFiles/ListOfWeapon.dir/ListOfWeapon.cpp.i
+.PHONY : ListOfWeapon.cpp.i
+
+ListOfWeapon.s: ListOfWeapon.cpp.s
+.PHONY : ListOfWeapon.s
+
+# target to generate assembly for a file
+ListOfWeapon.cpp.s:
+	cd /d C:\Users\PADIDAR\Desktop\finalProject\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ListOfWeapon.dir\build.make src/CMakeFiles/ListOfWeapon.dir/ListOfWeapon.cpp.s
+.PHONY : ListOfWeapon.cpp.s
 
 PlayerAndList.obj: PlayerAndList.cpp.obj
 .PHONY : PlayerAndList.obj
@@ -270,9 +308,13 @@ help:
 	@echo ... package_source
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... ListOfWeapon
 	@echo ... PlayerAndList
 	@echo ... WeaponAndListOfWeapon
 	@echo ... additional_functions
+	@echo ... ListOfWeapon.obj
+	@echo ... ListOfWeapon.i
+	@echo ... ListOfWeapon.s
 	@echo ... PlayerAndList.obj
 	@echo ... PlayerAndList.i
 	@echo ... PlayerAndList.s

@@ -39,9 +39,27 @@
 				"parent" : 0
 			},
 			{
-				"command" : 2,
+				"command" : 1,
 				"file" : 0,
 				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 22,
 				"parent" : 0
 			}
 		]
@@ -52,13 +70,13 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-O3 -DNDEBUG"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
+					"backtrace" : 6,
 					"path" : "C:/Users/PADIDAR/Desktop/finalProject/additional_functions"
 				}
 			],
@@ -72,16 +90,20 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 2,
-			"id" : "PlayerAndList::@145eef247bfb46b6828c"
+			"backtrace" : 4,
+			"id" : "ListOfWeapon::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "WeaponAndListOfWeapon::@145eef247bfb46b6828c"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "additional_functions::@145eef247bfb46b6828c"
 		},
 		{
-			"backtrace" : 2,
-			"id" : "WeaponAndListOfWeapon::@145eef247bfb46b6828c"
+			"backtrace" : 5,
+			"id" : "PlayerAndList::@145eef247bfb46b6828c"
 		}
 	],
 	"id" : "CSproject::@6890427a1f51a3e7e1df",
@@ -90,7 +112,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "-O3 -DNDEBUG",
 				"role" : "flags"
 			},
 			{
@@ -103,12 +125,17 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 3,
 				"fragment" : "src\\libWeaponAndListOfWeapon.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 4,
+				"fragment" : "src\\libListOfWeapon.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
 				"fragment" : "src\\libPlayerAndList.a",
 				"role" : "libraries"
 			},

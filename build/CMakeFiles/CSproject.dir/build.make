@@ -94,6 +94,7 @@ CSproject.exe: CMakeFiles/CSproject.dir/main.cpp.obj
 CSproject.exe: CMakeFiles/CSproject.dir/build.make
 CSproject.exe: src/libadditional_functions.a
 CSproject.exe: src/libWeaponAndListOfWeapon.a
+CSproject.exe: src/libListOfWeapon.a
 CSproject.exe: src/libPlayerAndList.a
 CSproject.exe: CMakeFiles/CSproject.dir/linkLibs.rsp
 CSproject.exe: CMakeFiles/CSproject.dir/objects1.rsp

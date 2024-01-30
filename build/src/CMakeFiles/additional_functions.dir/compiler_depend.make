@@ -339,8 +339,13 @@ src/CMakeFiles/additional_functions.dir/additional_functions.cpp.obj: C:/Users/P
   C:/msys64/mingw64/include/c++/13.1.0/bits/fs_path.h \
   C:/msys64/mingw64/include/c++/13.1.0/bits/fs_dir.h \
   C:/msys64/mingw64/include/c++/13.1.0/bits/fs_ops.h \
-  C:/msys64/mingw64/include/c++/13.1.0/memory_resource
+  C:/msys64/mingw64/include/c++/13.1.0/memory_resource \
+  C:/Users/PADIDAR/Desktop/finalProject/src/WeaponAndListOfWeapon.h \
+  C:/Users/PADIDAR/Desktop/finalProject/src/PlayerAndList.h \
+  C:/Users/PADIDAR/Desktop/finalProject/src/ListOfWeapon.h
 
+
+C:/Users/PADIDAR/Desktop/finalProject/src/PlayerAndList.h:
 
 C:/msys64/mingw64/include/c++/13.1.0/memory_resource:
 
@@ -461,6 +466,8 @@ C:/msys64/mingw64/include/c++/13.1.0/bits/gslice_array.h:
 C:/msys64/mingw64/include/c++/13.1.0/array:
 
 C:/msys64/mingw64/include/c++/13.1.0/bits/nested_exception.h:
+
+C:/Users/PADIDAR/Desktop/finalProject/src/ListOfWeapon.h:
 
 C:/msys64/mingw64/include/c++/13.1.0/cerrno:
 
@@ -939,6 +946,8 @@ C:/msys64/mingw64/include/c++/13.1.0/fstream:
 C:/msys64/mingw64/include/c++/13.1.0/cstdlib:
 
 C:/msys64/mingw64/include/c++/13.1.0/tr1/exp_integral.tcc:
+
+C:/Users/PADIDAR/Desktop/finalProject/src/WeaponAndListOfWeapon.h:
 
 C:/msys64/mingw64/include/c++/13.1.0/cstdio:
 

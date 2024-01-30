@@ -1,4 +1,6 @@
 #include "additional_functions.h"
+#include "WeaponAndListOfWeapon.h"
+#include "PlayerAndList.h"
 
 #include <bits/stdc++.h>
 using namespace std;

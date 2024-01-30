@@ -109,6 +109,7 @@ clean: src/clean
 # Recursive "all" directory target.
 src/all: src/CMakeFiles/additional_functions.dir/all
 src/all: src/CMakeFiles/WeaponAndListOfWeapon.dir/all
+src/all: src/CMakeFiles/ListOfWeapon.dir/all
 src/all: src/CMakeFiles/PlayerAndList.dir/all
 .PHONY : src/all
 
@@ -119,6 +120,7 @@ src/preinstall:
 # Recursive "clean" directory target.
 src/clean: src/CMakeFiles/additional_functions.dir/clean
 src/clean: src/CMakeFiles/WeaponAndListOfWeapon.dir/clean
+src/clean: src/CMakeFiles/ListOfWeapon.dir/clean
 src/clean: src/CMakeFiles/PlayerAndList.dir/clean
 .PHONY : src/clean
 
@@ -854,9 +856,10 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 # Target rules for target CMakeFiles/CSproject.dir
 
 # All Build rule for target.
-CMakeFiles/CSproject.dir/all: src/CMakeFiles/PlayerAndList.dir/all
-CMakeFiles/CSproject.dir/all: src/CMakeFiles/additional_functions.dir/all
+CMakeFiles/CSproject.dir/all: src/CMakeFiles/ListOfWeapon.dir/all
 CMakeFiles/CSproject.dir/all: src/CMakeFiles/WeaponAndListOfWeapon.dir/all
+CMakeFiles/CSproject.dir/all: src/CMakeFiles/additional_functions.dir/all
+CMakeFiles/CSproject.dir/all: src/CMakeFiles/PlayerAndList.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSproject.dir\build.make CMakeFiles/CSproject.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSproject.dir\build.make CMakeFiles/CSproject.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles --progress-num=1,2 "Built target CSproject"
@@ -864,7 +867,7 @@ CMakeFiles/CSproject.dir/all: src/CMakeFiles/WeaponAndListOfWeapon.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CSproject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CSproject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles 0
 .PHONY : CMakeFiles/CSproject.dir/rule
@@ -885,7 +888,7 @@ CMakeFiles/CSproject.dir/clean:
 src/CMakeFiles/additional_functions.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\additional_functions.dir\build.make src/CMakeFiles/additional_functions.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\additional_functions.dir\build.make src/CMakeFiles/additional_functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles --progress-num=7,8 "Built target additional_functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles --progress-num=9,10 "Built target additional_functions"
 .PHONY : src/CMakeFiles/additional_functions.dir/all
 
 # Build rule for subdir invocation for target.
@@ -911,7 +914,7 @@ src/CMakeFiles/additional_functions.dir/clean:
 src/CMakeFiles/WeaponAndListOfWeapon.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\WeaponAndListOfWeapon.dir\build.make src/CMakeFiles/WeaponAndListOfWeapon.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\WeaponAndListOfWeapon.dir\build.make src/CMakeFiles/WeaponAndListOfWeapon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles --progress-num=5,6 "Built target WeaponAndListOfWeapon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles --progress-num=7,8 "Built target WeaponAndListOfWeapon"
 .PHONY : src/CMakeFiles/WeaponAndListOfWeapon.dir/all
 
 # Build rule for subdir invocation for target.
@@ -931,13 +934,39 @@ src/CMakeFiles/WeaponAndListOfWeapon.dir/clean:
 .PHONY : src/CMakeFiles/WeaponAndListOfWeapon.dir/clean
 
 #=============================================================================
+# Target rules for target src/CMakeFiles/ListOfWeapon.dir
+
+# All Build rule for target.
+src/CMakeFiles/ListOfWeapon.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ListOfWeapon.dir\build.make src/CMakeFiles/ListOfWeapon.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ListOfWeapon.dir\build.make src/CMakeFiles/ListOfWeapon.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles --progress-num=3,4 "Built target ListOfWeapon"
+.PHONY : src/CMakeFiles/ListOfWeapon.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/ListOfWeapon.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/ListOfWeapon.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles 0
+.PHONY : src/CMakeFiles/ListOfWeapon.dir/rule
+
+# Convenience name for target.
+ListOfWeapon: src/CMakeFiles/ListOfWeapon.dir/rule
+.PHONY : ListOfWeapon
+
+# clean rule for target.
+src/CMakeFiles/ListOfWeapon.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ListOfWeapon.dir\build.make src/CMakeFiles/ListOfWeapon.dir/clean
+.PHONY : src/CMakeFiles/ListOfWeapon.dir/clean
+
+#=============================================================================
 # Target rules for target src/CMakeFiles/PlayerAndList.dir
 
 # All Build rule for target.
 src/CMakeFiles/PlayerAndList.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\PlayerAndList.dir\build.make src/CMakeFiles/PlayerAndList.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\PlayerAndList.dir\build.make src/CMakeFiles/PlayerAndList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles --progress-num=3,4 "Built target PlayerAndList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles --progress-num=5,6 "Built target PlayerAndList"
 .PHONY : src/CMakeFiles/PlayerAndList.dir/all
 
 # Build rule for subdir invocation for target.

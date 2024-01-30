@@ -1,1 +1,1 @@
- src/libadditional_functions.a src/libWeaponAndListOfWeapon.a src/libPlayerAndList.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ src/libadditional_functions.a src/libWeaponAndListOfWeapon.a src/libListOfWeapon.a src/libPlayerAndList.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

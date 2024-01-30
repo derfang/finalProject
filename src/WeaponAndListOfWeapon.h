@@ -16,11 +16,6 @@ class Weapon { //todo using enum
 };
 
 
-class ListOfWeapons { //todo turn "cout"s to exptation massages then print them in catch block
-    public:
-        Weapon heavy;
-        Weapon pistol;
-        Weapon knife;
-        ListOfWeapons();
-        void addWeapon(string weaponName, string team);
-};
+
+
+

@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/libPlayerAndList.a"
+			"path" : "src/libListOfWeapon.a"
 		}
 	],
 	"backtrace" : 1,
@@ -36,7 +36,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-O3 -DNDEBUG"
 				}
 			],
 			"language" : "CXX",
@@ -46,9 +46,9 @@
 			]
 		}
 	],
-	"id" : "PlayerAndList::@145eef247bfb46b6828c",
-	"name" : "PlayerAndList",
-	"nameOnDisk" : "libPlayerAndList.a",
+	"id" : "ListOfWeapon::@145eef247bfb46b6828c",
+	"name" : "ListOfWeapon",
+	"nameOnDisk" : "libListOfWeapon.a",
 	"paths" : 
 	{
 		"build" : "src",
@@ -69,7 +69,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/PlayerAndList.cpp",
+			"path" : "src/ListOfWeapon.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -334,5 +334,7 @@ CMakeFiles/CSproject.dir/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/13.1.0/bits/fs_ops.h \
  C:/msys64/mingw64/include/c++/13.1.0/memory_resource \
  C:\Users\PADIDAR\Desktop\finalProject\src/additional_functions.h \
+ C:\Users\PADIDAR\Desktop\finalProject\src/ListOfWeapon.h \
  C:\Users\PADIDAR\Desktop\finalProject\src/WeaponAndListOfWeapon.h \
+ C:\Users\PADIDAR\Desktop\finalProject\src/ListofWeapon.cpp \
  C:\Users\PADIDAR\Desktop\finalProject\src/PlayerAndList.h

@@ -340,7 +340,8 @@ src/CMakeFiles/PlayerAndList.dir/PlayerAndList.cpp.obj: C:/Users/PADIDAR/Desktop
   C:/msys64/mingw64/include/c++/13.1.0/bits/fs_dir.h \
   C:/msys64/mingw64/include/c++/13.1.0/bits/fs_ops.h \
   C:/msys64/mingw64/include/c++/13.1.0/memory_resource \
-  C:/Users/PADIDAR/Desktop/finalProject/src/WeaponAndListOfWeapon.h
+  C:/Users/PADIDAR/Desktop/finalProject/src/WeaponAndListOfWeapon.h \
+  C:/Users/PADIDAR/Desktop/finalProject/src/ListOfWeapon.h
 
 
 C:/msys64/mingw64/include/c++/13.1.0/memory_resource:
@@ -464,6 +465,8 @@ C:/msys64/mingw64/include/c++/13.1.0/bits/gslice_array.h:
 C:/msys64/mingw64/include/c++/13.1.0/array:
 
 C:/msys64/mingw64/include/c++/13.1.0/bits/nested_exception.h:
+
+C:/Users/PADIDAR/Desktop/finalProject/src/ListOfWeapon.h:
 
 C:/msys64/mingw64/include/c++/13.1.0/cerrno:
 

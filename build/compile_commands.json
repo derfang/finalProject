@@ -1,26 +1,32 @@
 [
 {
   "directory": "C:/Users/PADIDAR/Desktop/finalProject/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CSproject.dir/includes_CXX.rsp -g -o CMakeFiles\\CSproject.dir\\main.cpp.obj -c C:\\Users\\PADIDAR\\Desktop\\finalProject\\main.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CSproject.dir/includes_CXX.rsp -O3 -DNDEBUG -o CMakeFiles\\CSproject.dir\\main.cpp.obj -c C:\\Users\\PADIDAR\\Desktop\\finalProject\\main.cpp",
   "file": "C:/Users/PADIDAR/Desktop/finalProject/main.cpp",
   "output": "CMakeFiles/CSproject.dir/main.cpp.obj"
 },
 {
   "directory": "C:/Users/PADIDAR/Desktop/finalProject/build/src",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\PlayerAndList.dir\\PlayerAndList.cpp.obj -c C:\\Users\\PADIDAR\\Desktop\\finalProject\\src\\PlayerAndList.cpp",
-  "file": "C:/Users/PADIDAR/Desktop/finalProject/src/PlayerAndList.cpp",
-  "output": "src/CMakeFiles/PlayerAndList.dir/PlayerAndList.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -O3 -DNDEBUG -o CMakeFiles\\ListOfWeapon.dir\\ListOfWeapon.cpp.obj -c C:\\Users\\PADIDAR\\Desktop\\finalProject\\src\\ListOfWeapon.cpp",
+  "file": "C:/Users/PADIDAR/Desktop/finalProject/src/ListOfWeapon.cpp",
+  "output": "src/CMakeFiles/ListOfWeapon.dir/ListOfWeapon.cpp.obj"
 },
 {
   "directory": "C:/Users/PADIDAR/Desktop/finalProject/build/src",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\additional_functions.dir\\additional_functions.cpp.obj -c C:\\Users\\PADIDAR\\Desktop\\finalProject\\src\\additional_functions.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -O3 -DNDEBUG -o CMakeFiles\\WeaponAndListOfWeapon.dir\\WeaponAndListOfWeapon.cpp.obj -c C:\\Users\\PADIDAR\\Desktop\\finalProject\\src\\WeaponAndListOfWeapon.cpp",
+  "file": "C:/Users/PADIDAR/Desktop/finalProject/src/WeaponAndListOfWeapon.cpp",
+  "output": "src/CMakeFiles/WeaponAndListOfWeapon.dir/WeaponAndListOfWeapon.cpp.obj"
+},
+{
+  "directory": "C:/Users/PADIDAR/Desktop/finalProject/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -O3 -DNDEBUG -o CMakeFiles\\additional_functions.dir\\additional_functions.cpp.obj -c C:\\Users\\PADIDAR\\Desktop\\finalProject\\src\\additional_functions.cpp",
   "file": "C:/Users/PADIDAR/Desktop/finalProject/src/additional_functions.cpp",
   "output": "src/CMakeFiles/additional_functions.dir/additional_functions.cpp.obj"
 },
 {
   "directory": "C:/Users/PADIDAR/Desktop/finalProject/build/src",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\WeaponAndListOfWeapon.dir\\WeaponAndListOfWeapon.cpp.obj -c C:\\Users\\PADIDAR\\Desktop\\finalProject\\src\\WeaponAndListOfWeapon.cpp",
-  "file": "C:/Users/PADIDAR/Desktop/finalProject/src/WeaponAndListOfWeapon.cpp",
-  "output": "src/CMakeFiles/WeaponAndListOfWeapon.dir/WeaponAndListOfWeapon.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -O3 -DNDEBUG -o CMakeFiles\\PlayerAndList.dir\\PlayerAndList.cpp.obj -c C:\\Users\\PADIDAR\\Desktop\\finalProject\\src\\PlayerAndList.cpp",
+  "file": "C:/Users/PADIDAR/Desktop/finalProject/src/PlayerAndList.cpp",
+  "output": "src/CMakeFiles/PlayerAndList.dir/PlayerAndList.cpp.obj"
 }
 ]
