@@ -856,10 +856,10 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 # Target rules for target CMakeFiles/CSproject.dir
 
 # All Build rule for target.
-CMakeFiles/CSproject.dir/all: src/CMakeFiles/ListOfWeapon.dir/all
 CMakeFiles/CSproject.dir/all: src/CMakeFiles/WeaponAndListOfWeapon.dir/all
-CMakeFiles/CSproject.dir/all: src/CMakeFiles/additional_functions.dir/all
+CMakeFiles/CSproject.dir/all: src/CMakeFiles/ListOfWeapon.dir/all
 CMakeFiles/CSproject.dir/all: src/CMakeFiles/PlayerAndList.dir/all
+CMakeFiles/CSproject.dir/all: src/CMakeFiles/additional_functions.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSproject.dir\build.make CMakeFiles/CSproject.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSproject.dir\build.make CMakeFiles/CSproject.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PADIDAR\Desktop\finalProject\build\CMakeFiles --progress-num=1,2 "Built target CSproject"
